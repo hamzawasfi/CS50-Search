@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+ }
+
+ main{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+ }
+
+ .search{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    &-form{
+        max-width: 600px;
+    }
+ }
+
+ .logo{
+    width: 17rem;
+    height: auto;
+ }
+
+ header{
+    .logo{
+        width: 75px;
+    }
+ }
+
+ .border-none{
+    border: 0;
+ }

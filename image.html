@@ -11,30 +11,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+        <link rel="stylesheet" href="./static/css/styles.css">
+    </head>
 
 <body>
 
     <header class="bg-light">
         <section class="header p-3 text-end">
-        <a href="regular.html" class="mx-2">Regular</a>
-        <a href="advanced.html" class="mx-2">Advanced Search</a>
+        <a href="regular.html" class="link-dark mx-2">Regular</a>
+        <a href="advanced.html" class="link-dark mx-2">Advanced Search</a>
     </section>
     </header>
     
     <main>
-        <section class="search">
-            <img src="./static/images/google logo.png" alt="logo" class="img-fluid">
-            <form class="text-center" action="https://google.com/search">
-                <div class="input-group mx-auto">
+        <section class="search w-100 text-center">
+            <img class="logo" src="./static/images/google logo.png" alt="logo" class="img-fluid">
+            <form class="search-form mx-auto text-center mt-4" action="https://google.com/search">
+                <div class="border input-group mx-auto">
                     <div class="my-auto input-group-prepend">
-                        <span class="input-group-text bg-white">
+                        <span class="border-none input-group-text bg-white">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </span>
                     </div>
-                    <input class="form-control" type="text" name="q" aria-label="buttons">
+                    <input class="border-none form-control" type="text" name="q" aria-label="buttons">
                     <div class="my-auto input-group-append">
-                        <span class="input-group-text bg-white">
+                        <span class="border-none input-group-text bg-white">
                             <a href="advanced.html"><i class="me-4 fa-solid fa-microphone"></i></a>
                             <a href="regular.html"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </span>

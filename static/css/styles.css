@@ -1,1 +1,35 @@
-/*# sourceMappingURL=styles.css.map */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-form {
+  max-width: 600px;
+}
+
+.logo {
+  width: 17rem;
+  height: auto;
+}
+
+header .logo {
+  width: 75px;
+}
+
+.border-none {
+  border: 0;
+}/*# sourceMappingURL=styles.css.map */
